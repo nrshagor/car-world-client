@@ -1,0 +1,67 @@
+.review{
+    width: 100%;
+
+}
+.review-card-body{
+    display: grid;
+    padding: 30px 120px;
+    grid-template-columns: repeat(3,1fr);
+}
+.review-card{
+    background: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.932)),url(../../../Images/registration.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    padding: 0px 0px 10px;
+    margin: 20px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px 2px #0000007c;
+    transition: .9s all ease;
+}
+.review-card:hover{
+    box-shadow: 0px 0px 5px 0px #06ac3291;
+}
+.review-img img{
+width: 100%;
+max-height: 250px;
+min-height: 250px;
+display: block;
+} 
+.review-info{
+    color: rgb(252, 252, 252);
+margin: 10px 10px;
+} 
+.review-info h1{
+
+    font-size: 28px;
+    font-weight: bold;
+}
+.review-info p{
+    font-size: 16px;
+} 
+/* ------------------------
+        Mobile
+-------------------------*/
+@media only screen and (max-width:540px) {
+    /* Latest Product*/
+    .review-card-body{
+        display: block;
+        padding: 30px 20px;
+    }
+
+}
+/* ------------------------
+        Tablet
+-------------------------*/
+@media only screen and (min-width:541px) and (max-width:768px){
+
+  /* Latest Product*/
+    .review-card-body{
+        display: grid;
+        padding: 30px 60px;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}

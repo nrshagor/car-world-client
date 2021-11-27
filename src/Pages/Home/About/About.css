@@ -1,0 +1,128 @@
+/* About */
+.about{
+    padding-top: 10vh;
+  }
+  .about-us{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-basis: 48%;
+    padding: 12vh 20vh;
+    flex-direction: row;
+  }
+  .about-title{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 10%;
+    text-align: justify;
+  }
+  .about-title h1{
+    padding-bottom: 5%;
+    font-size: 25px;
+  }
+  .about-title p{
+    padding-bottom: 5%;
+    font-size: 16px;
+  }
+  .about-title strong{
+    margin-bottom: 5%;
+    padding: 2px 20px;
+    border-left: 5px solid #f44336;
+    font-size: 14px;
+  }
+  .about-img{
+    width: 50%;
+  }
+  .about-img img{
+    width: 100%;
+  }
+
+  
+/* -------------
+    Tablet
+-------------- */
+@media only screen and (min-width:541px) and (max-width:994px) {
+
+  /* About */
+  .about-us{
+    display: flex;
+    padding: 5vh 0 5vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-title{
+    display: flex;
+    order: 1;
+    padding: 15px 0px 2px;
+    flex-direction: column;
+    width: 80%;
+    text-align: justify;
+  }
+  .about-title h1{
+    padding-bottom: 5%;
+    font-size: 35px;
+  }
+  .about-title p{
+    padding-bottom: 5%;
+    font-size: 25px;
+  }
+  .about-title strong{
+    margin-bottom: 5%;
+    padding: 2px 20px;
+    border-left: 5px solid #f44336;
+    font-size: 25px;
+  }
+  .about-img{
+    width: 80%;
+  }
+  .about-img img{
+    width: 100%;
+  }
+
+
+  
+}
+/* -------------
+    Mobile
+-------------- */
+@media only screen and (max-width:540px) {
+
+  /* About */
+  .about-us{
+    display: flex;
+    padding: 3vh 0 5vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-title{
+    display: flex;
+    order: 1;
+    padding: 15px 0px 2px;
+    flex-direction: column;
+    width: 80%;
+    text-align: justify;
+  }
+  .about-title h1{
+    padding-bottom: 5%;
+    font-size: 25px;
+  }
+  .about-title p{
+    padding-bottom: 5%;
+    font-size: 20px;
+  }
+  .about-title strong{
+    margin-bottom: 5%;
+    padding: 2px 20px;
+    border-left: 5px solid #f44336;
+    font-size: 20px;
+  }
+  .about-img{
+    width: 80%;
+  }
+  .about-img img{
+    width: 100%;
+}
+
+}
