@@ -6,7 +6,10 @@ import LatestProducts from '../OurOffer/LatestProducts';
 import About from '../About/About';
 import CarTypes from '../CarTypes/CarTypes';
 import CustomerReview from '../CustomerReview/CustomerReview';
+import useAuth from '../../../Hook/useAuth';
 const Home = () => {
+    const { user } = useAuth();
+    console.log(user);
     return (
         <div>
             <Slider></Slider>

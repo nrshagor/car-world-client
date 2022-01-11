@@ -5,6 +5,7 @@ import useAuth from '../../../Hook/useAuth';
 import './Navigation.css'
 const Navigation = () => {
     const { user, logOut } = useAuth();
+
     return (
         <>
             <Navbar collapseOnSelect expand="lg" className="bg" >
